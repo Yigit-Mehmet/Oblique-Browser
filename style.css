@@ -23,7 +23,7 @@ body {
     padding-right: 20px;
 }
 
-.download10 {
+.download10w {
     background-color: blue;
     color: white;
     transition: background-color 0.2s, transform 0.1s;
@@ -32,11 +32,28 @@ body {
     box-shadow: 0 0 1px #00d2ff, 0 0 40px #00d2ff;
 }
 
-.download10:hover {
+.download10w:hover {
     background-color: aqua;
 }
 
-.download10:active {
+.download10w:active {
+    transform: scale(0.85);
+}
+
+.download10l {
+    background-color: green;
+    color: black;
+    transition: background-color 0.2s, transform 0.1s;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 1px #00d2ff, 0 0 40px #00d2ff;
+}
+
+.download10l:hover {
+    background-color: aqua;
+}
+
+.download10l:active {
     transform: scale(0.85);
 }
 
