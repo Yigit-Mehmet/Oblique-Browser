@@ -1,2 +1,2 @@
-const installfirst = document.getElementById('install10')
-
+const installfirstwin = document.getElementById('install10w')
+const installfirstlinux = document.getElementById('install10l')
